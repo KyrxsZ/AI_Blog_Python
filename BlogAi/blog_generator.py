@@ -1,3 +1,4 @@
+#first create .env file then
 #insert your api keys in .env file like this (API_KEY='insert your api here') My Free credit is out so use your own :)
 from openai import OpenAI
 from dotenv import dotenv_values
@@ -44,3 +45,4 @@ if topics:
         print(p + "\n")
 else:
     print("No topics entered. Exiting.")
+
